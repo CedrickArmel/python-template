@@ -1,6 +1,6 @@
 # Python Project Template
 
-> Template for Python Projects [@okp4](okp4.com).
+> Template for Python Projects.
 
 [![version](https://img.shields.io/github/v/release/okp4/template-python?style=for-the-badge&logo=github)](https://github.com/okp4/template-python/releases)
 [![lint](https://img.shields.io/github/actions/workflow/status/okp4/template-python/lint.yml?label=lint&style=for-the-badge&logo=github)](https://github.com/okp4/template-python/actions/workflows/lint.yml)
@@ -13,9 +13,9 @@
 
 ## Purpose & Philosophy
 
-This repository holds the template for building python projects with a consistent set of standards across all okp4 python projects. We are convinced that the quality of the code depends on clear and consistent coding conventions, with an automated enforcement (CI).
+This repository holds a template for building python projects with a consistent set of standards.
 
-This way, the template promotes:
+This template promotes :
 
 - the use of [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/), [semantic versionning](https://semver.org/) and [semantic releasing](https://github.com/cycjimmy/semantic-release-action) which automates the whole package release workflow including: determining the next version number, generating the release notes, and publishing the artifacts (project tarball, docker images, etc.)
 - a uniform way for managing the project lifecycle (dependencies management, building, testing)
@@ -160,9 +160,3 @@ Once built, you can run the container locally with the following command line:
 docker run -ti --rm my-app
 ```
 
-## You want to get involved? 😍
-
-Please check out OKP4 health files :
-
-- [Contributing](https://github.com/okp4/.github/blob/main/CONTRIBUTING.md)
-- [Code of conduct](https://github.com/okp4/.github/blob/main/CODE_OF_CONDUCT.md)
